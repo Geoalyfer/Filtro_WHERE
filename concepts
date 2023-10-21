@@ -1,0 +1,11 @@
+Como se aplica filtros na tabela para selecionar linhas da tabela para gerar as consultas.
+
+
+SELECT *
+	FROM venda
+	WHERE codigo_loja = 'CL001'
+
+Como se lê o código escrito
+Selecione todas (* = white card ou coringa) as colunas da tabela venda e filtre na coluna codigo_loja o dado CL001 entre aspas simples porque é uma string.
+
+É possível combinar o filtro WHERE com mais colunas dispoíveis.
